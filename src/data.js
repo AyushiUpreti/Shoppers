@@ -1,63 +1,89 @@
+import table from "./Assets/boxtable.jpg";
+import chair from './Assets/chair1_564x637.jpg';
+import chair1 from './Assets/chairdiff.jpg';
+import sofa from './Assets/sofa2_564x637.jpg';
+import table2 from './Assets/storetable.jpg';
+import dresser from './Assets/dresser2.jpg';
+import sidetable from './Assets/sidetable.jpg';
+import book from './Assets/booktable.jpg';
+import sofa2 from './Assets/designersofa.jpg';
+import diffchair from './Assets/diffchair.jpg';
+import dine from './Assets/dine.jpg';
+import chair5 from './Assets/chair5.jpg';
+
+
 const list = [
     {
         id:1,
-        title:"Dress",
-        price:1000,
-        src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyrP1XicUn-GYT2_QS44IX_GKSIxM2gBzFxxzDKuqyA8hhP3NETxSJXyY9AJLyOwOLzM&usqp=CAU"    
+        title:"Romper",
+        price:"₹ 1200",
+        src:table   
     },
     {
         id:2,
-        title:"Dress",
-        price:1000,
-        src:"https://i.pinimg.com/originals/c6/4b/ce/c64bce6bd616c168677fbb38c85df59e.jpg"
+        title:"Shorts",
+        price:"₹ 1300",
+        src:chair
     },
     {
         id:3,
-        title:"Dress",
-        price:1000,
-        src:"https://m.media-amazon.com/images/I/61VbiJ++pSL._AC_UY350_.jpg"    
+        title:"Red Top",
+        price:"₹ 1400",
+        src:sofa
     },
     {
         id:4,
-        title:"Dress",
-        price:1000,
-        src:"https://i.pinimg.com/736x/d7/52/d8/d752d8b2c36bb301932be7a3c1f42f8e.jpg"   
+        title:"Satin Top",
+        price:"₹ 1500",
+        src:chair1  
     },
     {
         id:5,
-        title:"Dress",
-        price:1000,
-        src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9O0g1RU4o4UUPAlvy7n7vDiHTSuBz7LeSZHqTGP12n6UVsr9Tcz1wl2HlwMCitMzu3yc&usqp=CAU" 
+        title:"Strappy Top",
+        price:"₹ 1100",
+        src:table2
     },
     {
         id:6,
-        title:"Dress",
-        price:1000,
-        src:"https://i.pinimg.com/474x/06/b5/30/06b530e43ed6416dc807667678a54ff2.jpg"    
+        title:"Woollen Dress",
+        price:"₹ 1800",
+        src:dresser    
     },
     {
         id:7,
-        title:"Dress",
-        price:1000,
-        src:"https://m.media-amazon.com/images/I/614VozRZaTL._AC_UY350_.jpg"    
+        title:"Woollen Dress",
+        price:"₹ 1600",
+        src:sidetable
     },
     {
         id:8,
         title:"Dress",
-        price:1000,
-        src:"https://i1.wp.com/ae01.alicdn.com/kf/Hed80901ddc9c4aa29313326964028682E.jpg?strip%5Cu003dall%5Cu0026quality%5Cu003d70%5Cu0026w%5Cu003d800"    
+        price:"₹ 1000",
+        src:book   
     },
     {
         id:9,
         title:"Dress",
-        price:1000,
-        src:"https://ae01.alicdn.com/kf/S519e34fa8f1c493e8b5edb06be92bc88e/Spring-Mini-Party-Blazer-Dress-Women-Korean-One-piece-Elegant-Dress-Office-Lady-Chic-Sashes-Design.jpg"    
+        price:"₹ 1000",
+        src:diffchair    
     },
     {
         id:10,
-        title:"Dress",
-        price:1000,
-        src:"https://nolabels.in/cdn/shop/files/FIF_4790.jpg?v=1705990956&width=1080"    
+        title:"Shirt",
+        price:"₹ 1700",
+        src:sofa2   
+    },
+    {
+        id:11,
+        title:"Shirt",
+        price:"₹ 1700",
+        src:chair5   
+    },
+    {
+        id:12,
+        title:"Shirt",
+        price:"₹ 1700",
+        src:dine 
     },
 ]
 
