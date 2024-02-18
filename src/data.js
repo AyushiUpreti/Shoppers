@@ -15,75 +15,87 @@ import chair5 from './Assets/chair5.jpg';
 const list = [
     {
         id:1,
-        title:"Romper",
-        price:"₹ 1200",
-        src:table   
+        title:"Table",
+        price:"12000",
+        src:table,
+        amount:1
     },
     {
         id:2,
-        title:"Shorts",
-        price:"₹ 1300",
-        src:chair
+        title:"Chair",
+        price:"13000",
+        src:chair,
+        amount:1
     },
     {
         id:3,
-        title:"Red Top",
-        price:"₹ 1400",
-        src:sofa
+        title:"Sofa",
+        price:"14000",
+        src:sofa,
+        amount:1
     },
     {
         id:4,
-        title:"Satin Top",
-        price:"₹ 1500",
-        src:chair1  
+        title:"Chair",
+        price:"15000",
+        src:chair1,
+        amount:1
     },
     {
         id:5,
-        title:"Strappy Top",
-        price:"₹ 1100",
-        src:table2
+        title:"Table",
+        price:"11000",
+        src:table2,
+        amount:1
     },
     {
         id:6,
-        title:"Woollen Dress",
-        price:"₹ 1800",
-        src:dresser    
+        title:"Dresser",
+        price:"18000",
+        src:dresser ,
+        amount:1   
     },
     {
         id:7,
-        title:"Woollen Dress",
-        price:"₹ 1600",
-        src:sidetable
+        title:"Side Table",
+        price:"16000",
+        src:sidetable,
+        amount:1
     },
     {
         id:8,
-        title:"Dress",
-        price:"₹ 1000",
-        src:book   
+        title:"Table",
+        price:"10000",
+        src:book,
+        amount:1   
     },
     {
         id:9,
-        title:"Dress",
-        price:"₹ 1000",
-        src:diffchair    
+        title:"Chair",
+        price:"10000",
+        src:diffchair,
+        amount:1    
     },
     {
         id:10,
-        title:"Shirt",
-        price:"₹ 1700",
-        src:sofa2   
+        title:"Sofa",
+        price:"17000",
+        src:sofa2,
+        amount:1   
     },
     {
         id:11,
-        title:"Shirt",
-        price:"₹ 1700",
-        src:chair5   
+        title:"Chair",
+        price:"17000",
+        src:chair5,
+        amount:1   
     },
     {
         id:12,
-        title:"Shirt",
-        price:"₹ 1700",
-        src:dine 
+        title:"Dining Table",
+        price:"45000",
+        src:dine,
+        amount:1 
     },
 ]
 
